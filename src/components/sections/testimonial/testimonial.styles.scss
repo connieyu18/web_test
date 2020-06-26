@@ -1,0 +1,16 @@
+.testimonial {
+  height: 500px;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .testimonial {
+    .mobile-top {
+      height: 100px;
+      padding-top: 100px;
+    }
+    .carousel-container {
+      height: 500px;
+      margin-top: -50px;
+    }
+  }
+}

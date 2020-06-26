@@ -1,0 +1,11 @@
+.section-two {
+  height: 500px;
+  background-image: url("../../../assets/images/banner-1.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .section-two {
+    height: 300px;
+  }
+}

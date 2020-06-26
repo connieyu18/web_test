@@ -1,0 +1,11 @@
+@import "../../assets/utils/variables.scss";
+.icon-component {
+  .icon-small-wrapper {
+    border-color: $purple !important;
+    border-width: 3px !important;
+    &:hover {
+      transform: scale(1);
+      box-shadow: 0 0 3px purple, 0 0 3px purple;
+    }
+  }
+}

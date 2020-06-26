@@ -1,0 +1,21 @@
+@import "../../../assets/utils/variables.scss";
+
+.section-three {
+  .light-background {
+    background-color: $lightgray;
+  }
+  .icon-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-three {
+    .left-container {
+      height: 250px;
+      margin-top: 50px;
+    }
+  }
+}

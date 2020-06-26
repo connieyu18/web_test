@@ -1,0 +1,15 @@
+@import "../../assets/utils/variables.scss";
+.btn {
+  padding: 1rem;
+  background-color: $orange;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 0;
+}
+.btn:hover {
+  padding: 1rem;
+  background-color: white;
+  color: $orange;
+  border: 1px solid $orange;
+}

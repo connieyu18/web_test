@@ -1,0 +1,16 @@
+.section-one {
+  .right-container {
+    background-image: url("../../../assets/images/img-1.jpg");
+    background-repeat: none;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-one {
+    .right-container {
+      height: 200px;
+      border-bottom: 3px solid orange;
+    }
+  }
+}
